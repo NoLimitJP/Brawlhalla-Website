@@ -1,0 +1,31 @@
+body{
+  margin:0;
+}
+a{
+  display:flex;
+  color:black;
+  font-weight: 200;
+  transition-duration: 1s;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  height:500px;
+  font-style: normal;
+  text-decoration:none;
+}
+a:hover{
+  opacity:.6;
+}
+h1{
+  justify-content: center;
+  background-color:rgb(255, 255, 255);
+  width:150px;
+  height:150px;
+  text-shadow: 2px 2px #681fce;
+}
+.previews{
+  height:100%;
+  width:100%;
+  border-radius:2px;
+  border-style: solid;
+  border-color:rgba(0, 0, 0, 0.059);
+}
