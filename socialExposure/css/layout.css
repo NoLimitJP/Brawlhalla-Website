@@ -1,0 +1,118 @@
+.banner{
+  display:flex;
+  background-color: rgb(255, 255, 255);
+  height:120px;
+  width:100vw;
+  column-gap:10px;
+justify-content: center;
+}
+.video-container{
+  display:inline-block;
+  background-color:rgb(38, 38, 38);
+  width:100%;
+  height:300px;
+}
+.content{
+  display:flex;
+  flex-direction:column;
+}
+.middle-content{
+  display:flex;
+  flex-direction:column;
+  background-color: rgb(255, 255, 255);
+  height:50px;
+  width:50px;
+  justify-content:center;
+  column-gap:300px;
+  border-radius:5px;
+  margin-top:30px;
+}
+.middle{
+  display:flex;
+  flex-direction:row;
+  height:200px;
+  width:100vw;
+  justify-content:center;
+  column-gap:300px;
+  border-radius:5px;
+  background-color:rgb(255, 255, 255)
+}
+.links{
+
+}
+.bottom{
+   display:inline-block;
+  width:100vw;
+  height:100%;
+}
+.video{
+  width:100%;
+  height:300px;
+}
+.logo{
+  width:50px;
+  height:50px;
+}
+.banner-img{
+  margin-left:300px;
+}
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  height:500px;
+  font-style: normal;}
+.buttons{
+height:50px;
+width:120px;
+margin-bottom:5px;
+background-color: black;
+border-style:solid;
+border-color:grey;
+color:white;
+margin-top:5px;
+border-radius:30px;
+
+font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  transition:1s;
+}
+.buttons:hover{
+  cursor:pointer;
+  opacity:.6;
+}
+.more-section{
+  display:flex;
+   flex-wrap: wrap;
+  height:300px;
+  column-gap:10px;
+ justify-content: space-around;
+ row-gap:30px;
+}
+.top-buttons{
+  display:flex;
+  flex-direction: column;
+  position:absolute;
+  left:50px;
+}
+.thumbnails{
+  border-radius:30px;
+  height:100px;
+  width:200px;
+  background-color: rgb(255, 255, 255);
+  flex:0 0 calc(33.3333% - 20px);
+  display:inline-block;
+}
+.name{
+  background-color: rgb(255, 255, 255);
+  width:fit-content;
+  height:fit-content;
+  color:rgba(5, 5, 5, 0.621);
+  margin-left:30px;
+}
+.picture{
+  background-color:rgb(255, 255, 255);
+  height:200px;
+  width:400px;
+  border-radius:30px;
+}
